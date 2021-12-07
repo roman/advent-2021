@@ -11,7 +11,7 @@
         {
           devShell = pkgs.mkShell {
             buildInputs = builtins.attrValues {
-              inherit (pkgs) go_1_17 ghc;
+              inherit (pkgs) go_1_17 ghc cargo;
             };
           };
         }
