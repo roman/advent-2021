@@ -1,3 +1,7 @@
 *.hi
 *.o
 .direnv/*
+*.class
+**/.cpcache
+.clj-kondo
+.lsp
