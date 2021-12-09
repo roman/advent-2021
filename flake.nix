@@ -11,7 +11,7 @@
         {
           devShell = pkgs.mkShell {
             buildInputs = builtins.attrValues {
-              inherit (pkgs) go_1_17 ghc cargo;
+              inherit (pkgs) go_1_17 ghc cargo ruby jdk clojure;
             };
           };
         }
